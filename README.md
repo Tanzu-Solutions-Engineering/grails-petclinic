@@ -12,3 +12,8 @@ on Unix-like systems, or
 on Windows via the command prompt. Once the server has started up, you can copy the URL and paste it in a browser.
 
 Follow the tutorial link to learn about Grails or click on the View Source for Controller/View links to see the underlying code for whatever page you are currently on.
+
+### To deploy on Cloud Foundry
+please have a look at manifest.yml You need to create a MySQL service called **petclinic-mysql**
+
+    cf push
