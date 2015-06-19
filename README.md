@@ -15,7 +15,7 @@ Follow the tutorial link to learn about Grails or click on the View Source for C
 
 To build the app run
 
-        ./grailsw war
+    ./grailsw war
 
 
 ### To deploy on Cloud Foundry
