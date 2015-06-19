@@ -1,0 +1,8 @@
+---
+applications:
+- name: petclinic
+  memory: 1G
+  instances: 1
+  host: petclinic-${random-word}
+  domain: cfapps.io
+  path: target/petclinic-0.2.war
