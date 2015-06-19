@@ -13,6 +13,11 @@ on Windows via the command prompt. Once the server has started up, you can copy 
 
 Follow the tutorial link to learn about Grails or click on the View Source for Controller/View links to see the underlying code for whatever page you are currently on.
 
+To build the app run
+
+        ./grailsw war
+
+
 ### To deploy on Cloud Foundry
 please have a look at manifest.yml You need to create a MySQL service called **petclinic-mysql**
 
