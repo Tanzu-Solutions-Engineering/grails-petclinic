@@ -63,6 +63,10 @@ grails.project.dependency.resolution = {
         }
         test "org.seleniumhq.selenium:selenium-htmlunit-driver:$seleniumVersion"
         test ("org.seleniumhq.selenium:selenium-remote-driver:$seleniumVersion") // Needed by phantomjsdriver
+        
+        test "org.grails:grails-datastore-test-support:1.0-grails-2.4"
+        runtime 'mysql:mysql-connector-java:5.1.33'
+        
     }
 
     plugins {
